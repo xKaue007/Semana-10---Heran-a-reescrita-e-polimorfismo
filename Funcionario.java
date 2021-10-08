@@ -1,15 +1,15 @@
 public class Funcionario{
-    protected String nome;
-    protected String cpf;
-    protected double salario;
-    protected String departamento;
+    private String nome;
+    private String cpf;
+    private double salario;
+    private String departamento;
 
     public String getNome(){
-        returnnome;
+        return nome;
     }
 
 public void setNome(String nome){
-    this.nome= nome;
+    this.nome = nome;
     }
 
 public String getCpf(){
@@ -17,15 +17,15 @@ public String getCpf(){
     }
 
 public void setCpf(String cpf){
-    this.cpf= cpf;
+    this.cpf = cpf;
     }
 
 public double getSalario(){
     return salario;
     }
 
-public void setSalario(doublesalario){
-    this.salario= salario;
+public void setSalario(double salario){
+    this.salario = salario;
     }
 
 public String getDepartamento(){
@@ -33,10 +33,10 @@ public String getDepartamento(){
     }
     
 public void setDepartamento(String departamento){
-    this.departamento= departamento;
+    this.departamento = departamento;
     }
     
 public double getBonificacao(){
-    returnthis.salario* 0.10;
+    return this.salario* 0.10;
     }
 }

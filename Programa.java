@@ -1,12 +1,12 @@
 public class Programa{
     public static void main(String[] args){
-        Funcionario f1= newFuncionario();
+        Funcionario f1 = new Funcionario();
         f1.setNome("Eduardo");
         f1.setCpf("123.456.789-10");
         f1.setDepartamento("TI");
         f1.setSalario(2500);
         
-        Gerente gerente= newGerente();
+        Gerente gerente = new Gerente();
         gerente.setNome("Kaue");
         gerente.setCpf("123");
         gerente.setDepartamento("TI");

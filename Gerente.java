@@ -1,21 +1,21 @@
 public class Gerente extends Funcionario{
     private int senha;
     
-public void setSenha(intsenha){
-    this.senha= senha;
+public void setSenha(int senha){
+    this.senha = senha;
     }
     
-public boolean autentificacao(intsenha){
-    if(this.senha== senha){ 
+public boolean autentificacao(int senha){
+    if(this.senha == senha){ 
         System.out.println("Acesso Permitido!");
         return true;
     }else{
         System.out.println("Acesso Negado!");
-        returnfalse;
+        return false;
         }
     }
 
 public double getBonificacao(){
-    returnthis.getSalario() * 0.15;
+    return this.getSalario() * 0.15;
     }
 }
